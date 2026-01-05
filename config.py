@@ -4,7 +4,7 @@ from logging.handlers import RotatingFileHandler
 # Bot Configuration
 LOG_FILE_NAME = "bot.log"
 PORT = '5010'
-OWNER_ID = 7314923110
+OWNER_ID = '7314923110'
 
 MSG_EFFECT = 5046509860389126442
 
@@ -22,7 +22,7 @@ WORKERS = 5
 DB_URI = "mongodb+srv://Stevefile2000:Zh4Q3BbSOXzrrYh4@cluster0.dtcvaos.mongodb.net/?appName=Cluster0"
 DB_NAME = "Cluster0"
 
-FSUBS = [[-1002681239733, -1003555778914, True, 10]] # Force Subscription Channels [channel_id, request_enabled, timer_in_minutes]
+FSUBS = [['-1002681239733', '-1003555778914', True, 10]] # Force Subscription Channels [channel_id, request_enabled, timer_in_minutes]
 # Database Channel (Primary)
 DB_CHANNEL =    # just put channel id dont add ""
 # Multiple Database Channels (can be set via bot settings)
@@ -33,7 +33,7 @@ DB_CHANNEL =    # just put channel id dont add ""
 # Auto Delete Timer (seconds)
 AUTO_DEL = 300
 # Admin IDs
-ADMINS = [7314923110,]
+ADMINS = ['7314923110',]
 # Bot Settings
 DISABLE_BTN = True
 PROTECT = True
