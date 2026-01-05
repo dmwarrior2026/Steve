@@ -13,7 +13,12 @@ SHORT_API = ""
 SHORT_TUT = "https://t.me/How_to_Download_7x/26"
 
 # Bot Configuration
-SESSION = ""
+SESSION = "MIIBCgKCAQEA6LszBcC1LGzyr992NzE0ieY+BSaOW622Aa9Bd4ZHLl+TuFQ4lo4g
+5nKaMBwK/BIb9xUfg0Q29/2mgIR6Zr9krM7HjuIcCzFvDtr+L0GQjae9H0pRB2OO
+62cECs5HKhT5DZ98K33vmWiLowc621dQuwKWSQKjWf50XYFw42h21P2KXUGyp2y/
++aEyZ+uVgLLQbRA1dEjSDZ2iGRy12Mk5gpYc397aYp438fsJoHIgJ2lgMv5h7WY9
+t6N/byY9Nw9p21Og3AoXSL2q/2IJ1WRUhebgAdGVMlV1fkuOQoEzR7EdpqtQD9Cs
+5+bfo3Nhmcyvk5ftB0WkJ9z6bNZ7yxrP8wIDAQAB"
 TOKEN = "8232714396:AAGNo8slrpL0YtgpjwwB341TZQjGYyP8JO0"
 API_ID = "20247467"
 API_HASH = "8ab4a0d75eec6fe40b85144c2c0ff418"
@@ -22,7 +27,7 @@ WORKERS = 5
 DB_URI = "mongodb+srv://Stevefile2000:Zh4Q3BbSOXzrrYh4@cluster0.dtcvaos.mongodb.net/?appName=Cluster0"
 DB_NAME = "Cluster0"
 
-FSUBS = [['', True, 10]] # Force Subscription Channels [channel_id, request_enabled, timer_in_minutes]
+FSUBS = [[ -1002681239733, -1003555778914, True, 10]] # Force Subscription Channels [channel_id, request_enabled, timer_in_minutes]
 # Database Channel (Primary)
 DB_CHANNEL =    # just put channel id dont add ""
 # Multiple Database Channels (can be set via bot settings)
@@ -33,7 +38,7 @@ DB_CHANNEL =    # just put channel id dont add ""
 # Auto Delete Timer (seconds)
 AUTO_DEL = 300
 # Admin IDs
-ADMINS = ['7314923110',]
+ADMINS = [7314923110,]
 # Bot Settings
 DISABLE_BTN = True
 PROTECT = True
